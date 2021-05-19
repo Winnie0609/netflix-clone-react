@@ -25,43 +25,6 @@ export const Container = styled.div`
     }
 `
 
-// export const Group = styled.div`
-//     display: flex;
-//     flex-direction: ${({ flexDirection }) => (flexDirection === "row" ? "row" : "column")};
-//     ${({ alignItems }) => alignItems && `align-item: ${alignItems}`};
-//     ${({ margin }) => margin && `margin:${margin}`}
-    
-//     background: linear-gradient(
-//         to right,
-//         hsl(0, 0%, 0%) 0%,
-//         hsla(0, 0%, 0%, 0.964) 7.4%,
-//         hsla(0, 0%, 0%, 0.918) 15.3%,
-//         hsla(0, 0%, 0%, 0.862) 23.4%,
-//         hsla(0, 0%, 0%, 0.799) 31.6%,
-//         hsla(0, 0%, 0%, 0.73) 39.9%,
-//         hsla(0, 0%, 0%, 0.655) 48.2%,
-//         hsla(0, 0%, 0%, 0.577) 56.2%,
-//         hsla(0, 0%, 0%, 0.497) 64%,
-//         hsla(0, 0%, 0%, 0.417) 71.3%,
-//         hsla(0, 0%, 0%, 0.337) 78.1%,
-//         hsla(0, 0%, 0%, 0.259) 84.2%,
-//         hsla(0, 0%, 0%, 0.186) 89.6%,
-//         hsla(0, 0%, 0%, 0.117) 94.1%,
-//         hsla(0, 0%, 0%, 0.054) 97.6%,
-//         hsla(0, 0%, 0%, 0) 100%
-//       );
-
-//     >${Container}:first-of-type {
-//         @media (min-width: 1100px) {
-//             margin-top: -150px;
-//         }
-//     }
-
-//     ${FeatureText}:{
-//         margin-top: 15px;
-//     }
-// `
-
 export const Entities = styled.div`
     display: flex;
     flex-direction: row;
@@ -243,39 +206,3 @@ export const Group = styled.div`
         margin-top: 15px;
     }
 `
-
-// export const FeatureImageShadow =styled.div`
-//     background-color:black;
-
-    
-//     position: relative;
-//     // filter: blur(10px);
-
-//     &:after{
-//         position: absolute;
-//         content: '';
-//         width: 100%;
-//         height: 100%;
-//         top: 0;
-//         left: 0;
-//         // box-shadow:0px 0px 0px 10px #ffffff inset;
-// }
-// `
-
-// export const FeatureImage =styled.img`
-//     width:100%
-//     max-width: 300px;
-//     height: 300px;
-//     object-fit: cover;
-    
-
-	
-
-//     @media(max-width:900px) {
-//         width:100%
-//         max-width: 150px;
-//         height: 200px;
-//     }
-// `
-
-

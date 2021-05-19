@@ -22,7 +22,7 @@ Player.Video = function PlayerVideo({ ...restProps }) {
             <Overlay onClick={() => setShowPlayer(false)}>
                 <Inner>
                     <video id="netflix-player" controls>
-                        <source src="images/video/tiger-king.mp4" type="video/mp4" />
+                        <source src={`${process.env.PUBLIC_URL}images/video/tiger-king.mp4`} type="video/mp4" />
                     </video>
                     <Close>
                         <i className="far fa-times-circle" style={{fontSize:"25px", color:"#fff"}}></i>

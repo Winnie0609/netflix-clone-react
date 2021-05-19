@@ -101,7 +101,7 @@ Header.Dropdown = function HeaderDropdown({ children, ...restProps }){
 }
 
 Header.Picture = function HeaderPicture({ src, ...restProps }){
-    return <Picture {...restProps} src={`/images/users/${src}.png`}/>
+    return <Picture {...restProps} src={`${process.env.PUBLIC_URL}/images/users/${src}.png`}/>
 }
 
 export default Header

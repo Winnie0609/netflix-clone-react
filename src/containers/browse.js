@@ -43,7 +43,7 @@ function BrowseContainer({ slides }) {
                     <Header.Group>
                         <Header.Logo 
                                 to={ROUTES.HOME}
-                                src="images/misc/logo.png"  
+                                src={`${process.env.PUBLIC_URL}images/misc/logo.png`}  
                                 alt="Netflix"/>
                         
                         <Header.Link
@@ -111,7 +111,7 @@ function BrowseContainer({ slides }) {
                         <Card.Entities>
                             {slideItem.data.map((item) => (
                                 <Card.Item key={item.docid} item={item}>
-                                    <Card.Image src={`/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
+                                    <Card.Image src={`${process.env.PUBLIC_URL}/images/${category}/${item.genre}/${item.slug}/small.jpg`} />
 
                                     <Card.Meta>
                                         <Card.Subtitle>{item.title}</Card.Subtitle>
