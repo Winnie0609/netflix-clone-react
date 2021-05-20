@@ -2,7 +2,7 @@
 A Netflix Clone Website built with React.
 
 ## Demo
-[Blog]()
+[Blog]()  
 [Live Demo](https://winnie0609.github.io/netflix-clone-react/)
 
 ## Feature
