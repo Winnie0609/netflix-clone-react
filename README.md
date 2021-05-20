@@ -5,6 +5,8 @@ A Netflix Clone Website built with React.
 [Blog]()  
 [Live Demo](https://winnie0609.github.io/netflix-clone-react/)
 
+![@0508-netflix-clone-demo](https://user-images.githubusercontent.com/49323767/118951714-e812b700-b98d-11eb-9f6d-faadd171a2d1.gif)
+
 ## Feature
 * Pages: Home Page, Sign in Page, Sign up Page, Browser
 * Home Page: Subscription bar, Introduction, FAQ
