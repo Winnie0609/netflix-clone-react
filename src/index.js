@@ -23,7 +23,7 @@ ReactDOM.render(
     <>
       <FirebaseContext.Provider value={{ firebase: window.firebase }}>
         <GlobalStyles/>
-        <BrowserRouter>
+        <BrowserRouter basename="/netflix-clone-react">
           <App />
         </BrowserRouter>
       </FirebaseContext.Provider> 

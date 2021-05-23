@@ -24,7 +24,6 @@ Profiles.Name = function ProfilesName({ children, ...restProps }) {
 }
 
 Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
-    return <Picture {...restProps} src={src ? `${process.env.PUBLIC_URL}/images/users/${src}.png` :
-    `${process.env.PUBLIC_URL}/images/misc/loading.gif`} />
+    return <Picture {...restProps} src={`${process.env.PUBLIC_URL}/images/users/${src}.png`} />
 }
 export default Profiles

@@ -8,7 +8,7 @@ function SelectProfileContainer({ user, setProfile }) {
             <Header bg={false}>
                 <Header.Frame>
                     <Header.Logo
-                        src="/images/misc/logo.png"
+                        src={`${process.env.PUBLIC_URL}/images/misc/logo.png`}
                         to={ROUTES.HOME}
                         alt="Netflix"/> 
                 </Header.Frame>

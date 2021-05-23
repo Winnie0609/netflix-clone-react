@@ -43,7 +43,7 @@ function BrowseContainer({ slides }) {
                     <Header.Group>
                         <Header.Logo 
                                 to={ROUTES.HOME}
-                                src={`${process.env.PUBLIC_URL}images/misc/logo.png`}  
+                                src={`${process.env.PUBLIC_URL}/images/misc/logo.png`}  
                                 alt="Netflix"/>
                         
                         <Header.Link
