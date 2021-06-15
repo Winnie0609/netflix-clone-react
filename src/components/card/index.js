@@ -64,7 +64,10 @@ Card.Item = function CardItem({item, children, ...restProps}){
                 setItemFeature(item) 
                 setShowFeature(true)
             }}
-        {...restProps}>{children}</Item>
+            {...restProps}
+        >
+            {children}
+        </Item>
     )
 }
 

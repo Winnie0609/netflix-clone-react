@@ -54,6 +54,4 @@ Accordion.Body = function AccordionBody({ children, ...restProps }){
     )
 }
 
-
-
 export default Accordion

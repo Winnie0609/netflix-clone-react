@@ -1,11 +1,10 @@
 import React, { useState, useContext, useEffect } from "react"
-import Fuse from 'fuse.js';
+import Fuse from 'fuse.js'
 import { Card, Header, Player } from "../components"
 import { FirebaseContext } from "../context/firebase"
 import { FooterContainer } from "./footer"
 import { SelectProfileContainer } from "./profiles"
 import * as ROUTES from "../constants/routes"
-
 
 function BrowseContainer({ slides }) {
     const [category, setCategory] = useState('series');
@@ -44,19 +43,20 @@ function BrowseContainer({ slides }) {
                         <Header.Logo 
                                 to={ROUTES.HOME}
                                 src={`${process.env.PUBLIC_URL}/images/misc/logo.png`}  
-                                alt="Netflix"/>
+                                alt="Netflix"
+                        />
                         
                         <Header.Link
                                 active ={category === "series"? "true":"false"}
                                 onClick={() => setCategory("series")}
-                            >
+                        >
                                 Series
-                            </Header.Link>
+                        </Header.Link>
 
                         <Header.Link
                                 active ={category === "films"? "true":"false"}
                                 onClick={() => setCategory("films")}
-                            >
+                        >
                                 Film
                         </Header.Link>
                     </Header.Group>
