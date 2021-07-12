@@ -1,5 +1,9 @@
 # netflix-clone-react
 A Netflix Clone Website built with React.
+* Built with Compound Component and Styled Component 
+* Navigate between pages with React Router (Home Page, Browser, Sign in Page) 
+* Handling user authentication and storing data with Firebase 
+* Search function completed with Fuse.js
 
 ## Demo
 [Blog](https://winnie0609.github.io/2021/05/02/0502-netflix-clone-1/)  
